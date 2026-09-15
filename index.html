@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="p">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Danishora</title>
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 10px;
+      margin: 0;
+    }
+    h1 {
+      color: red;
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 35px;
+    }
+    nav {
+      text-align: center;
+      background-color: white;
+      padding: 10px;
+      border: 1px solid #dddddd;
+    }
+    nav a {
+      margin: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      color: black;
+      padding: 5px;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: blue;
+    }
+    h2 {
+      color: #333333;
+      margin-bottom: 10px;
+      font-size: 26px;
+    }
+    h3 {
+      color: #555555;
+      font-size: 20px;
+    }
+    section {
+      width: 90%;
+      margin: 20px auto;
+      padding: 10px;
+    }
+    form {
+      border: 1px solid #dddddd;
+      padding: 15px;
+      border-radius: 5px;
+      background-color: white;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 500px;
+      box-sizing: border-box;
+      box-shadow: 0 2px 5px #cccccc;
+      margin-bottom: 20px;
+    }
+    .contact-form {
+  background-color: #ffffff;
+      }
+    
+    form label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    form input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    textarea {
+      height: 120px;
+    }
+    form input:focus, textarea:focus {
+      border: 2px solid blue;
+      outline: none;
+    }
+    form button, button {
+      display: block;
+      background-color: green;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+    }
+    #contact-form button {
+  width: 100%;
+  font-size: 16px;
+  padding: 12px;
+    }
+    form button:hover, button:hover {
+      background-color: darkgreen;
+    }
+    p {
+      color: #555555;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+    a {
+      color: blue;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    article {
+      background-color: white;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 5px;
+      border: 1px solid #dddddd;
+      box-shadow: 0 2px 5px #cccccc;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: white;
+      margin-top: 20px;
+    }
+    footer p {
+      color: #555;
+      margin: 0;
+      font-size: 14px;
+      }
+    #main-title {
+    color: green;
+      }
+    #contact-form {
+  border: 2px solid blue;
+      }
+    #contact-form {
+  border: 2px solid blue;
+  padding: 20px;
+      }
+    body {
+    background: linear-gradient(to right, #f2f2f2, #ffffff);
+    }
+    .contact-form {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+    }
+    @media (max-width: 600px) {
+  body {
+    padding: 5px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  nav a {
+    display: block;
+    margin: 5px;
+  }
+      }
+    nav {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 12px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #555;
+      }
+    section {
+    background-color: white;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+      border: 1px solid #ddd;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #333;
+}
+
+section p {
+    color: #555;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 15px;
+} 
+    section a {
+    display: block;
+    width: fit-content;
+    margin: 10px auto 0;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+      border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      }
+    section a {
+    transition: 0.3s;
+      padding: 12px 20px;
+font-size: 16px;
+    }
+
+section a:hover {
+    background-color: #555;
+      }
+    section h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+    } 
+  </style>
+</head>
+<body>
+
+  <h1 id="main-title">Welcome to Danishora</h1> 
+
+  <nav>
+    <a href="education.html">Education</a>
+    <a href="technology.html">Technology</a>
+    <a href="islamic.html">Islamic</a>
+    <a href="how-to.html">How-To</a>
+    <a href="jobs.html">Jobs</a>
+    <a href="blogging.html">Blogging/SEO</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+  <section>
+    <h2>Welcome to Danishora</h2>
+    <p>Learn Education, Technology, Islamic knowledge, How-To guides, Jobs, and Blogging & SEO.</p>
+    <a href="education.html">Start Learning</a>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <p>Learn useful lessons and skills.</p>
+  </section>
+
+  <section>
+    <h2>Technology</h2>
+    <p>Learn technology, computers, and web development.</p>
+  </section>
+
+  <section>
+    <h2>Islamic</h2>
+    <p>Learn Islamic knowledge, stories, and teachings.</p>
+  </section>
+
+  <section>
+    <h2>How-To</h2>
+    <p>Learn step-by-step guides and useful tutorials.</p>
+  </section>
+
+  <section>
+    <h2>Jobs</h2>
+    <p>Find jobs, career tips, and work opportunities.</p>
+  </section>
+
+  <hr>
+
+  <section>
+    <h2>Latest Articles</h2>
+    <article>
+    <h3>Learn Blogging & SEO</h3>
+    <p>Learn blogging and SEO step by step with Danishora.</p>
+    <a href="blogging.html">Read More</a>
+    </article>
+
+    <article>
+      <h3>Learn HTML</h3>
+      <p>Start learning web development step by step.</p>
+      <a href="#">Read More</a>
+    </article>
+
+    <article>
+      <h3>Learn CSS</h3>
+      <p>Design beautiful websites with CSS.</p>
+      <a href="#">Read More</a>
+    </article>
+
+    <article>
+      <h3>Learn Technology</h3>
+      <p>Learn computers, technology, and useful tools.</p>
+      <a href="#">Read More</a>
+    </article>
+
+    <article>
+      <h3>Islamic Reminder</h3>
+      <p>Learn Islamic knowledge and beautiful teachings.</p>
+      <a href="#">Read More</a>
+    </article>
+
+    <article>
+      <h3>How To Learn</h3>
+      <p>Learn useful things with simple step-by-step guides.</p>
+      <a href="#">Read More</a>
+    </article>
+
+    <article>
+      <h3>Job Tips</h3>
+      <p>Learn useful tips for finding jobs and career advice.</p>
+      <a href="#">Read More</a>
+    </article>
+  </section>
+
+    <h2>Contact Us</h2>
+    
+    <form class="contact-form" id="contact-form"> 
+      
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email">
+
+      <label for="message">Message:</label>
+      <textarea id="message" placeholder="Enter your message"></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <hr>
+
+  <footer>
+    <p>&copy; 2026 Danishora. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html> 
