@@ -1,13 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://farmankhan102040-ux.github.io/Danishora/</loc>
     <priority>1.00</priority>
   </url>
+
   <url>
     <loc>https://farmankhan102040-ux.github.io/Danishora/education.html</loc>
     <priority>0.80</priority>
   </url>
-</urlset>
 
- 
+  <url>
+    <loc>https://farmankhan102040-ux.github.io/Danishora/technology.html</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://farmankhan102040-ux.github.io/Danishora/islamic.html</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://farmankhan102040-ux.github.io/Danishora/how-to.html</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://farmankhan102040-ux.github.io/Danishora/jobs.html</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://farmankhan102040-ux.github.io/Danishora/blogging-seo.html</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://farmankhan102040-ux.github.io/Danishora/about-us.html</loc>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://farmankhan102040-ux.github.io/Danishora/how-to-learn-computer-skills-for-beginners-2026.html</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://farmankhan102040-ux.github.io/Danishora/improve-computer-skills.html</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://farmankhan102040-ux.github.io/Danishora/learn-css-for-beginners.html</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://farmankhan102040-ux.github.io/Danishora/how-to-learn-seo-for-beginners.html</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://farmankhan102040-ux.github.io/Danishora/technology-basics-for-beginners.html</loc>
+    <priority>0.80</priority>
+  </url>
+
+</urlset>
