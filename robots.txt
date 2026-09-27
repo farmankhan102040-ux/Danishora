@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://farmankhan102040-ux.github.io/Danishora/sitemap.xml
